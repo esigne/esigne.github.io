@@ -148,7 +148,7 @@
 }
 
 .fight-stick .button.pressed {
-    transform: translateY(5px);
+    transform: translateY(0px);
     -webkit-filter: invert(1);
 }
 
@@ -159,7 +159,7 @@
 
 .fight-stick .b {
     bottom: 66px;
-    right: 31px;
+    right: 0px;
 }
 
 .fight-stick .x {
