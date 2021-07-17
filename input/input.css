@@ -25,7 +25,7 @@
 }
 
 .fight-stick .trigger-button.pressed {
-    transform: translateY(5px);
+    
     -webkit-filter: invert(1);
 }
 
@@ -59,7 +59,7 @@
 }
 
 .fight-stick .bumper.pressed {
-    transform: translateY(5px);
+    
     -webkit-filter: invert(1);
 }
 
@@ -127,7 +127,7 @@
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
-    transform: translateY(5px);
+    
     -webkit-filter: invert(1);
 }
 
@@ -150,7 +150,7 @@
 }
 
 .fight-stick .button.pressed {
-    transform: translateY(0px);
+    
     -webkit-filter: invert(1);
 }
 
