@@ -5,13 +5,6 @@
     width: 1122px;
 }
 
-.fight-stick.disconnected {
-    background: url(stick-assets/disconnected.svgz) no-repeat;
-}
-
-.fight-stick.disconnected div {
-    display: none;
-}
 
 .fight-stick .triggers {
     width: 326px;
@@ -90,19 +83,19 @@
 }
 
 .fight-stick .p0:after {
-    content: "Player 1";
+    content: "";
 }
 
 .fight-stick .p1:after {
-    content: "Player 2";
+    content: "";
 }
 
 .fight-stick .p2:after {
-    content: "Player 3";
+    content: "";
 }
 
 .fight-stick .p3:after {
-    content: "Player 4";
+    content: "";
 }
 
 .fight-stick .arrows {
@@ -114,8 +107,8 @@
 }
 
 .fight-stick .back, .fight-stick .start {
-    width: 70px;
-    height: 70px;
+    width: 0px;
+    height: 0px;
     background: #333333;
     display: block;
     border-radius: 100%;
@@ -178,7 +171,7 @@
     right: 0px;
     top: 0px;
 }
-
+/*
 .fight-stick .fstick {
     position: absolute;
     width: 221px;
@@ -186,7 +179,7 @@
     top: 199px;
     left: 192px;
     background: url(stick-assets/stick.svgz)
-}
+}*/
 
 .fight-stick .fstick.up {
     background-position-x: -1762px;
