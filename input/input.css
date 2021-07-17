@@ -138,11 +138,11 @@
 }
 
 .fight-stick .button {
-    width: 123px;
-    height: 123px;
+    width: 120px;
+    height: 120px;
     background: #333333;
     border-radius: 100%;
-    opacity: 1;
+    opacity: 0.4;
     display: block;
     position: absolute;
 }
@@ -159,19 +159,19 @@
 
 .fight-stick .b {
     bottom: 66px;
-    right: 0px;
+    right: 33px;
 }
 
 .fight-stick .x {
     top: 66px;
-    left: 33px
+    left: 33px;
 }
 
 .fight-stick .y {
     right: 0px;
     top: 0px;
 }
-/*
+
 .fight-stick .fstick {
     position: absolute;
     width: 220px;
@@ -179,7 +179,7 @@
     top: 199px;
     left: 192px;
     background: url(stick.png)
-}*/
+}
 
 .fight-stick .fstick.up {
     background-position-x: -1760px;
