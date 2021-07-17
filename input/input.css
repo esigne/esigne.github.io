@@ -174,43 +174,43 @@
 /*
 .fight-stick .fstick {
     position: absolute;
-    width: 221px;
-    height: 221px;
+    width: 220px;
+    height: 220px;
     top: 199px;
     left: 192px;
-    background: url(stick-assets/stick.svgz)
+    background: url(stick.png)
 }*/
 
 .fight-stick .fstick.up {
-    background-position-x: -1762px;
+    background-position-x: -1760px;
 }
 
 .fight-stick .fstick.down {
-    background-position-x: -882px;
+    background-position-x: -880px;
 }
 
 .fight-stick .fstick.left {
-    background-position-x: -1322px;
+    background-position-x: -1320px;
 }
 
 .fight-stick .fstick.right {
-    background-position-x: -442px;
+    background-position-x: -440px;
 }
 
 .fight-stick .fstick.up.right {
-    background-position-x: -222px;
+    background-position-x: -220px;
 }
 
 .fight-stick .fstick.up.left {
-    background-position-x: -1542px;
+    background-position-x: -1540px;
 }
 
 .fight-stick .fstick.down.right {
-    background-position-x: -662px;
+    background-position-x: -660px;
 }
 
 .fight-stick .fstick.down.left {
-    background-position-x: -1102px;
+    background-position-x: -1100px;
 }
 
 /*END Fight Stick Controller Styling*/
