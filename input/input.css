@@ -1,11 +1,13 @@
 /*BEGIN Fight Stick Controller Styling*/
+
+//배경이미지
 .controller.fight-stick {
     background: url(base.png) center no-repeat;
     height: 534px;
     width: 1122px;
 }
 
-
+// 트리거 버튼 레이아웃
 .fight-stick .triggers {
     width: 326px;
     height: 198px;
@@ -14,6 +16,7 @@
     bottom: 66px;
 }
 
+// 트리거 버튼 디자인 R2 L2
 .fight-stick .trigger-button {
    width: 120px;
     height: 120px;
@@ -26,9 +29,10 @@
 
 .fight-stick .trigger-button.pressed {
     
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(0);
 }
 
+//트리거 L2 R2 각각 레이아웃
 .fight-stick .trigger-button.left {
     position: absolute;
     float: right;
@@ -40,6 +44,7 @@
     float: left;
 }
 
+//범퍼 레이아웃
 .fight-stick .bumpers {
     width: 295px;
     height: 198px;
@@ -48,6 +53,7 @@
     top: 88px;
 }
 
+//범퍼 디자인
 .fight-stick .bumper {
     width: 120px;
     height: 120px;
@@ -60,7 +66,7 @@
 
 .fight-stick .bumper.pressed {
     
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(0);
 }
 
 .fight-stick .bumper.left {
@@ -74,6 +80,7 @@
     float: left;
 }
 
+////////////////////////////////////////////
 .fight-stick .quadrant {
     position: absolute;
     font-family: "Press Start 2P";
@@ -99,6 +106,8 @@
 .fight-stick .p3:after {
     content: "";
 }
+///////////////////////////////////////////
+
 
 .fight-stick .arrows {
     position: absolute;
@@ -108,6 +117,7 @@
     left: 49px;
 }
 
+//------------------------------------------------ 시작,돌아가기버튼 레이아웃
 .fight-stick .back, .fight-stick .start {
     width: 0px;
     height: 0px;
@@ -126,9 +136,12 @@
     left: -1px;
 }
 
+
 .fight-stick .back.pressed, .fight-stick .start.pressed {
 }
+//----------------------------------------------
 
+//ABXY 버튼
 .fight-stick .abxy {
     position: absolute;
     width: 310px;
@@ -136,7 +149,7 @@
     bottom: 103px;
     left: 472px;
 }
-
+//ABXY 버튼 디자인
 .fight-stick .button {
     width: 120px;
     height: 120px;
@@ -149,7 +162,7 @@
 
 .fight-stick .button.pressed {
     
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(0);
 }
 
 .fight-stick .a {
@@ -172,6 +185,8 @@
     top: 0px;
 }
 
+
+// 레버 설정
 .fight-stick .fstick {
     position: absolute;
     width: 220px;
