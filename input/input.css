@@ -17,7 +17,7 @@
 .fight-stick .trigger-button {
    width: 120px;
     height: 120px;
-    background: #ffffff;
+    background: #111111;
     border-radius: 100%;
     opacity: 0.5;
     display: block;
@@ -51,7 +51,7 @@
 .fight-stick .bumper {
     width: 120px;
     height: 120px;
-    background: #ffffff;
+    background: #111111;
     border-radius: 100%;
     opacity: 0.5;
     display: block;
@@ -111,7 +111,7 @@
 .fight-stick .back, .fight-stick .start {
     width: 0px;
     height: 0px;
-    background: #ffffff;
+    background: #111111;
     display: block;
     border-radius: 100%;
 }
@@ -140,7 +140,7 @@
 .fight-stick .button {
     width: 120px;
     height: 120px;
-    background: #ffffff;
+    background: #111111;
     border-radius: 100%;
     opacity: 0.5;
     display: block;
