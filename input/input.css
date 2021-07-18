@@ -1,7 +1,5 @@
 /*BEGIN Fight Stick Controller Styling*/
-
-.controller.fight-stick 
-{
+.controller.fight-stick {
     background: url(base.png) center no-repeat;
     height: 534px;
     width: 1122px;
@@ -15,7 +13,6 @@
     right: 0px;
     bottom: 66px;
 }
-
 
 .fight-stick .trigger-button {
    width: 120px;
@@ -32,7 +29,6 @@
     -webkit-filter: invert(1);
 }
 
-
 .fight-stick .trigger-button.left {
     position: absolute;
     float: right;
@@ -44,7 +40,6 @@
     float: left;
 }
 
-
 .fight-stick .bumpers {
     width: 295px;
     height: 198px;
@@ -52,7 +47,6 @@
     right: 0px;
     top: 88px;
 }
-
 
 .fight-stick .bumper {
     width: 120px;
@@ -66,7 +60,7 @@
 
 .fight-stick .bumper.pressed {
     
-    -webkit-filter: invert(0);
+    -webkit-filter: invert(1);
 }
 
 .fight-stick .bumper.left {
@@ -79,7 +73,6 @@
 .fight-stick .bumper.right {
     float: left;
 }
-
 
 .fight-stick .quadrant {
     position: absolute;
@@ -107,8 +100,6 @@
     content: "";
 }
 
-
-
 .fight-stick .arrows {
     position: absolute;
     width: 70px;
@@ -116,7 +107,6 @@
     top: 53px;
     left: 49px;
 }
-
 
 .fight-stick .back, .fight-stick .start {
     width: 0px;
@@ -136,11 +126,8 @@
     left: -1px;
 }
 
-
 .fight-stick .back.pressed, .fight-stick .start.pressed {
 }
-
-
 
 .fight-stick .abxy {
     position: absolute;
@@ -162,7 +149,7 @@
 
 .fight-stick .button.pressed {
     
-    -webkit-filter: invert(0);
+    -webkit-filter: invert(1);
 }
 
 .fight-stick .a {
@@ -184,8 +171,6 @@
     right: 0px;
     top: 0px;
 }
-
-
 
 .fight-stick .fstick {
     position: absolute;
